@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#996BEA"
+        android:text="TO-DO List"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorLink="#090808"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:id="@+id/etTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter a task" />
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#220A4C"
+        android:backgroundTintMode="add"
+        android:text="Add Task" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
