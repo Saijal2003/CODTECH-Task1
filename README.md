@@ -2,7 +2,7 @@ Name:Saijal Jain
 Company:CODTECH IT SOLUTIONS
 ID:CT08DS4577
 Domain:Android Development
-Duration:JULY 10,2024 TO AUGUST 10TH,2024
+Duration:JULY TO AUGUST,2024
 Mentor:Muzammil Ahmed
 
 Overview of the Project
